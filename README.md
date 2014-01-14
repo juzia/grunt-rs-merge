@@ -12,15 +12,15 @@
 在 ``Gruntfile.js`` 中添加如下代码:
 
 ```javascript
+  grunt.registerTask('default', ['rs_merge']);
+```  
+
+```javascript
 grunt.loadNpmTasks('grunt-rs-merge');
 ```
 
 ## 配置
-在 ``Gruntfile.js`` 中添加该行代码用于任务注册
-```javascript
-  grunt.registerTask('default', ['rs_merge']);
-```  
-  
+
 在 ``Gruntfile.js`` 中添加该行代码用于任务定义
 
 ```javascript
