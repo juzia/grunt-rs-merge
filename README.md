@@ -6,6 +6,8 @@
 ## 安装 
 [需要先安装git：http://git-scm.com/download/win]
 
+然后运行以下命令
+
 ``npm install git://github.com/gouflv/grunt-rs-merge --save-dev``
 
 
