@@ -4,7 +4,8 @@
 如果你每次看到js里出现大段大段的html代码或者样式就菊紧的话, 那么不妨一试
 
 ## 安装 
-[需要依赖git：http://git-scm.com/download/win]
+[需要先安装git：http://git-scm.com/download/win]
+
 ``npm install git://github.com/gouflv/grunt-rs-merge --save-dev``
 
 
