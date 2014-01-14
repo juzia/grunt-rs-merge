@@ -3,7 +3,8 @@
 提供js中的内容嵌入机制, 可以将页面结构或样式资源独立于js进行维护   
 如果你每次看到js里出现大段大段的html代码或者样式就菊紧的话, 那么不妨一试
 
-## 安装 [需要依赖git：http://git-scm.com/download/win]
+## 安装 
+[需要依赖git：http://git-scm.com/download/win]
 ``npm install git://github.com/gouflv/grunt-rs-merge --save-dev``
 
 
@@ -17,7 +18,7 @@ grunt.loadNpmTasks('grunt-rs-merge');
 在 ``Gruntfile.js`` 中添加该行代码用于任务注册
 ```javascript
   grunt.registerTask('default', ['rs_merge']);
-  
+```  
   
 在 ``Gruntfile.js`` 中添加该行代码用于任务定义
 
